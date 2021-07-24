@@ -4,7 +4,7 @@ function Footer (){
     return (
         <div className='container-fluid footer-'>
             <div className='row ps-md-5'>
-                <div className='col-12 col-md-4 '>
+                <div className='col-12 col-md-4  pt-md-5  '>
                     <p>My account</p>
                     <div>
                         <p>Wallet</p>
@@ -12,7 +12,7 @@ function Footer (){
                         <p>Manage Addresses</p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 '>
+                <div className='col-12 col-md-4 pt-md-5'>
                     <p>Contact</p>
                     <div className='d-flex align-items-center'>
                         <img src={round}></img>
@@ -23,7 +23,7 @@ function Footer (){
                         <p className='mt-3 ps-2'>Whatsapp Us</p>
                     </div>
                 </div>
-                <div className='col-12 col-md-4 '>
+                <div className='col-12 col-md-4 pt-md-5 '>
                     <p>Download Our App</p>
                     <div>
                         <button className='butt-'> App Label</button>
