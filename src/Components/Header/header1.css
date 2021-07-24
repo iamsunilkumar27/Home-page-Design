@@ -1,0 +1,8 @@
+.Header{
+    padding: 10px;
+}
+.background-image{
+    background-image: url(./Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
