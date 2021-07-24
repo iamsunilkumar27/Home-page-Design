@@ -9,12 +9,12 @@ import'./Container-2.css'
 function Category() {
 
     const images = [delivery, temperature, bharathihomes, limited , handwash, man, cleaning];
-    const description = ['Social distancing norms followed', 'Social distancing norms followed', 'Social distancing norms followed', 'Social distancing norms followed' , 'Social distancing norms followed', 'Social distancing norms followed', 'Social distancing norms followed'];
+    const description = [' Zero-contact home delivery available', 'Non-contact thermal scanning of staff', 'Social distancing norms followed', 'Limited number of people allowed inside the store' , 'Staff trained on precautionary measures & hygiene', 'Mandatory face masks and hand sanitisation for staffs and customers  ', 'Store completely sanitized twice every day '];
 
 
     return (
         <div className='container-fluid container-class'>
-            <h4 className='fw-bold text-center mt-md-4'>We are #SafeToShop</h4>
+            <h4 className='fw-bold text-center pt-md-5'>We are #SafeToShop</h4>
             <div className="d-flex flex-wrap justify-content-center px-lg-5">
 
                 {
@@ -32,8 +32,6 @@ function Category() {
                         )
                     })
                 }
-
-
             </div>
         </div>
     );
