@@ -12,7 +12,6 @@ function App() {
       <Container></Container>
       <Category></Category>
       <Footer></Footer>
-
     </div>
   );
 }
